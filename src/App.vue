@@ -1,14 +1,14 @@
 <template>
-  <ProvideInject/>
+  <LifecycleC/>
 </template>
 
 <script>
-import ProvideInject from "./components/ProvideInject.vue";
+import LifecycleC from "./components/LifecycleC.vue";
 
 export default {
   name: 'App',
   components: {
-     ProvideInject,
+     LifecycleC,
   }
 }
 </script>
